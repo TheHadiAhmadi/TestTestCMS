@@ -7,7 +7,7 @@
 lib/
 
 # Compiled css
-/FluentCMS.Web.UI/wwwroot/css/*.css.map
+/TestTestCMS.Web.UI/wwwroot/css/*.css.map
 
 
 # User-specific files
@@ -404,6 +404,6 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-FluentCMS/files
-FluentCMS/LiteDb-log.db
-FluentCMS/LiteDb.db
+TestTestCMS/files
+TestTestCMS/LiteDb-log.db
+TestTestCMS/LiteDb.db

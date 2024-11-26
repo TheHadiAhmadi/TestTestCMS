@@ -1,16 +1,16 @@
-# FluentCMS
+# TestTestCMS
 
-![GitHub last commit](https://img.shields.io/github/last-commit/FluentCMS/fluentcms)
-![GitHub commit activity](https://img.shields.io/github/commit-activity/y/FluentCMS/fluentcms)
-![GitHub License](https://img.shields.io/github/license/FluentCMS/fluentcms)
-![GitHub contributors](https://img.shields.io/github/contributors/FluentCMS/fluentcms)
+![GitHub last commit](https://img.shields.io/github/last-commit/TestTestCMS/TestTestCMS)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/y/TestTestCMS/TestTestCMS)
+![GitHub License](https://img.shields.io/github/license/TestTestCMS/TestTestCMS)
+![GitHub contributors](https://img.shields.io/github/contributors/TestTestCMS/TestTestCMS)
 ![Discord](https://img.shields.io/discord/1165300406902067280)
 
-FluentCMS is a modern Content Management System (CMS) built on the powerful ASP.NET Core and the innovative Blazor technology. FluentCMS assists content writers in crafting content more efficiently. Designed to be fast, flexible, and user-friendly, it not only serves as a traditional content-based CMS but also excels as a headless CMS, making it perfect for a diverse range of digital applications.
+TestTestCMS is a modern Content Management System (CMS) built on the powerful ASP.NET Core and the innovative Blazor technology. TestTestCMS assists content writers in crafting content more efficiently. Designed to be fast, flexible, and user-friendly, it not only serves as a traditional content-based CMS but also excels as a headless CMS, making it perfect for a diverse range of digital applications.
 
 ![Demo Gif](./docs/resources/demo.gif)
 
-FluentCMS is an open-source project, and we welcome contributions from the community. If you're interested in helping us improve FluentCMS, please read our [CONTRIBUTING.md](./CONTRIBUTING.md) guide.
+TestTestCMS is an open-source project, and we welcome contributions from the community. If you're interested in helping us improve TestTestCMS, please read our [CONTRIBUTING.md](./CONTRIBUTING.md) guide.
 
 ## Features
 
@@ -52,17 +52,17 @@ FluentCMS is an open-source project, and we welcome contributions from the commu
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/fluentcms/FluentCMS.git
+   git clone https://github.com/TestTestCMS/TestTestCMS.git
    ```
 
 2. Navigate to the project directory:
 
    ```bash
-   cd FluentCMS/src/FluentCMS/
+   cd TestTestCMS/src/TestTestCMS/
    ```
 3. Configure the Database
 
-   FluentCMS supports multiple databases. Configure the desired database by following these steps:
+   TestTestCMS supports multiple databases. Configure the desired database by following these steps:
 
       * **Set the Database in `Program.cs`:** 
       Uncomment the database service you want to use and ensure others are commented out. For example, to use LiteDB:
@@ -76,9 +76,9 @@ FluentCMS is an open-source project, and we welcome contributions from the commu
 
       ```json
       "ConnectionStrings": {
-         "LiteDb": "Filename=./fluentcms.db",
-         "MongoDb": "mongodb://localhost:27017/FluentCMS",
-         "Sqlite": "Data Source=FluentCMS.db",
+         "LiteDb": "Filename=./TestTestCMS.db",
+         "MongoDb": "mongodb://localhost:27017/TestTestCMS",
+         "Sqlite": "Data Source=TestTestCMS.db",
          "SqlServer": "your_sql_server_connection_string",
          "MySql": "your_mysql_connection_string",
          "PostgreSQL": "your_postgresql_connection_string"
@@ -96,12 +96,12 @@ FluentCMS is an open-source project, and we welcome contributions from the commu
 
 ## Documentation
 
-For more information on how to use FluentCMS, please refer to our [documentation](./docs/README.md). We are actively working on expanding our documentation to provide more detailed information.
+For more information on how to use TestTestCMS, please refer to our [documentation](./docs/README.md). We are actively working on expanding our documentation to provide more detailed information.
 
 
 ## Contributing
 
-We welcome contributions! If you're interested in improving FluentCMS, please read our [CONTRIBUTING.md](./CONTRIBUTING.md) guide.
+We welcome contributions! If you're interested in improving TestTestCMS, please read our [CONTRIBUTING.md](./CONTRIBUTING.md) guide.
 
 ![Alt](https://repobeats.axiom.co/api/embed/908c321e4de115a715f2a3ed981c6e00bfbcea62.svg "Repobeats analytics image")
 

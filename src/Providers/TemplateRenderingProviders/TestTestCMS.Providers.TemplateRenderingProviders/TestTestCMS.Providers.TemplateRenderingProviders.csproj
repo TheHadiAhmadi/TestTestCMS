@@ -1,0 +1,39 @@
+﻿
+
+
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>TestTestCMS.Providers.TemplateRenderingProviders</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Hadi</Authors>
+    <Company>TestTestCMS</Company>
+    <Description>template rendering provider abstractions.</Description>
+    <PackageTags>testtestcms;cms;template;rendering;provider;core</PackageTags>
+    <RepositoryUrl>https://github.com/thehadiahmadi/TestTestCMS</RepositoryUrl>
+    <PackageProjectUrl>https://testtestcms.com</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ReadmeFile>README.md</ReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2" />
+    <PackageReference Include="Scriban" Version="5.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestTestCMS.Providers.TemplateRenderingProviders.Abstractions\TestTestCMS.Providers.TemplateRenderingProviders.Abstractions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\icon.png" Pack="true" PackagePath="icon.png" />
+    <None Include="README.md" Pack="true" PackagePath="README.md" />
+  </ItemGroup>
+</Project>
+
+

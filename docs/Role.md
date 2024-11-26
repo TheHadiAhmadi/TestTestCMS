@@ -1,5 +1,5 @@
 ## Roles Definition
-Roles in FluentCMS define the permissions and access levels for users within a site. Each role can have specific policies that dictate what actions users assigned to that role can perform.
+Roles in TestTestCMS define the permissions and access levels for users within a site. Each role can have specific policies that dictate what actions users assigned to that role can perform.
 
 ## Scenarios
 ### Senario1: E-commerce Platform Admin and Customer Roles
@@ -38,11 +38,11 @@ Create roles for staff with administrative access and students with limited acce
   * Customizable: Allow for different student roles based on their program or year of study, providing tailored access to resources relevant to their academic track.
 
 ## Proposal
-This proposal outlines the approach for defining and managing roles in FluentCMS, allowing for flexible permissions and policies tailored to the needs of various user types within a site.
+This proposal outlines the approach for defining and managing roles in TestTestCMS, allowing for flexible permissions and policies tailored to the needs of various user types within a site.
 
 ## Features
 * Role Creation and Management: Create, update, and delete roles. Assign roles to users and manage permissions.
-* Role Listing: Display a comprehensive list of all roles with search and paging capability managed within FluentCMS .
+* Role Listing: Display a comprehensive list of all roles with search and paging capability managed within TestTestCMS .
 * Auto-Assignment: Define roles that can be automatically assigned based on specific criteria.
 * System Roles: Identify and manage system roles that are predefined and critical to the system's operation.
 * Custom Policies: Define and apply custom policies to roles, such as read-only access or administrative privileges.

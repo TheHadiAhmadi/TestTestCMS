@@ -3,4 +3,6 @@
 ################################################################################
 
 /.vs
-src/FluentCMS/temp
+src/TestTestCMS/temp
+.env
+outputs

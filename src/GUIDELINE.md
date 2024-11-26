@@ -223,14 +223,14 @@ Do the following steps to create a new field type.
 
 ### Field type directory
 
-Create a directory named `Foo` in `FluentCMS.Web.UI\Plugins\ContentTypeManagement\ContentTypeFields` path.
+Create a directory named `Foo` in `TestTestCMS.Web.UI\Plugins\ContentTypeManagement\ContentTypeFields` path.
 
 ### Field type information
 
 Create a file `Foo.cs` with this content to define type information.
 
 ```csharp
-namespace FluentCMS.Web.UI.Plugins.ContentTypeManagement.ContentTypeFields;
+namespace TestTestCMS.Web.UI.Plugins.ContentTypeManagement.ContentTypeFields;
 
 public class FooInfo : Base
 {
@@ -259,7 +259,7 @@ Create `FooAdvancedSettings.razor` and `FooAdvancedSettings.razor` files in the 
 Each file should contain these logics.
 
 ```razor
-@namespace FluentCMS.Web.UI.Plugins.ContentTypeManagement.ContentTypeFields
+@namespace TestTestCMS.Web.UI.Plugins.ContentTypeManagement.ContentTypeFields
 
 @* View *@
 

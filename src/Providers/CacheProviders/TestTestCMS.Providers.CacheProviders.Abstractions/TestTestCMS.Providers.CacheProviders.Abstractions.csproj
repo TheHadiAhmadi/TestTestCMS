@@ -1,0 +1,26 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>TestTestCMS.Providers.CacheProviders.Abstractions</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Hadi</Authors>
+    <Company>TestTestCMS</Company>
+    <Description>cache provider abstractions.</Description>
+    <PackageTags>testtestcms;cms;cache;provider;abstractions;core</PackageTags>
+    <RepositoryUrl>https://github.com/thehadiahmadi/TestTestCMS</RepositoryUrl>
+    <PackageProjectUrl>https://testtestcms.com</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ReadmeFile>README.md</ReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\icon.png" Pack="true" PackagePath="icon.png" />
+    <None Include="README.md" Pack="true" PackagePath="README.md" />
+  </ItemGroup>
+</Project>

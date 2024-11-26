@@ -1,6 +1,6 @@
 
 ## Site Definition
-FluentCMS empowers users to define and fully customize multiple sites using a shared infrastructure. This robust capability allows for efficient content management and personalization of various sites, ensuring each site meets unique requirements and preferences. 
+TestTestCMS empowers users to define and fully customize multiple sites using a shared infrastructure. This robust capability allows for efficient content management and personalization of various sites, ensuring each site meets unique requirements and preferences. 
 
 ## Scenarios
 ### Senario1: Multinational Corporation with Regional Websites
@@ -19,8 +19,8 @@ TechU needs to create separate websites for each department while leveraging a s
 
 ### Multi-Site Definition
 * Create, Update, Delete Sites: Users can create new sites, update existing ones, and delete sites as needed.
-* Site Listing: Display a comprehensive list of all sites managed within FluentCMS.
-* Create Multiple Sites: Users can create multiple independent sites within a single FluentCMS instance.
+* Site Listing: Display a comprehensive list of all sites managed within TestTestCMS.
+* Create Multiple Sites: Users can create multiple independent sites within a single TestTestCMS instance.
 * Shared Infrastructure: Utilize a common infrastructure to support all sites, optimizing resource use and maintenance.
 * Unique Site IDs: Each site is assigned a unique identifier to differentiate and manage them effectively.
 * Theming and Layouts: Customize the look and feel of each site with different themes and layouts.
@@ -40,7 +40,7 @@ TechU needs to create separate websites for each department while leveraging a s
 * Data Validation: Implement robust data validation to maintain the integrity and security of site settings.
 
 ### Proposal
-This proposal outlines the approach for utilizing FluentCMS to create and manage multiple distinct sites on a shared infrastructure. This will enable efficient resource utilization, streamlined management, and personalized site customization for different needs, such as a multinational corporation's regional websites or an educational institution's departmental sites.
+This proposal outlines the approach for utilizing TestTestCMS to create and manage multiple distinct sites on a shared infrastructure. This will enable efficient resource utilization, streamlined management, and personalized site customization for different needs, such as a multinational corporation's regional websites or an educational institution's departmental sites.
 
 ## Properties
 * Id: Unique identifier for the site.

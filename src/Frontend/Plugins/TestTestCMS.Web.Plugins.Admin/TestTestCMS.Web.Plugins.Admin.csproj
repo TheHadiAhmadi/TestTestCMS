@@ -1,0 +1,41 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>TestTestCMS.Web.Plugins.Admin</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Hadi</Authors>
+    <Company>TestTestCMS</Company>
+    <Description>admin plugins.</Description>
+    <PackageTags>testtestcms;cms;admin;plugin;core</PackageTags>
+    <RepositoryUrl>https://github.com/thehadiahmadi/TestTestCMS</RepositoryUrl>
+    <PackageProjectUrl>https://testtestcms.com</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ReadmeFile>README.md</ReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Components.Forms" Version="8.0.10" />
+      <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="8.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Auth\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestTestCMS.Web.Plugins.Base\TestTestCMS.Web.Plugins.Base.csproj" />
+    <ProjectReference Include="..\..\TestTestCMS.Web.ApiClients\TestTestCMS.Web.ApiClients.csproj" />
+    <ProjectReference Include="..\..\TestTestCMS.Web.UI.Components\TestTestCMS.Web.UI.Components.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="..\..\..\icon.png" Pack="true" PackagePath="icon.png" />
+    <None Include="README.md" Pack="true" PackagePath="README.md" />
+  </ItemGroup>
+</Project>

@@ -1,7 +1,7 @@
 ﻿using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace FluentCMS;
+namespace TestTestCMS;
 
 public class DictionaryJsonConverter : JsonConverter<Dictionary<string, object?>>
 {

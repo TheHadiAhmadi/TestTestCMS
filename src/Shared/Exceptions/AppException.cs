@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics;
 
-namespace FluentCMS;
+namespace TestTestCMS;
 
 public class AppException : ApplicationException
 {

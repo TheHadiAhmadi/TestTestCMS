@@ -1,0 +1,35 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>TestTestCMS.Providers.CacheProviders</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Hadi</Authors>
+    <Company>TestTestCMS</Company>
+    <Description>cache provider.</Description>
+    <PackageTags>testtestcms;cms;provider;cache;provider;core</PackageTags>
+    <RepositoryUrl>https://github.com/thehadiahmadi/TestTestCMS</RepositoryUrl>
+    <PackageProjectUrl>https://testtestcms.com</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ReadmeFile>README.md</ReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestTestCMS.Providers.CacheProviders.Abstractions\TestTestCMS.Providers.CacheProviders.Abstractions.csproj" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="..\..\..\icon.png" Pack="true" PackagePath="icon.png" />
+    <None Include="README.md" Pack="true" PackagePath="README.md" />
+  </ItemGroup>
+</Project>

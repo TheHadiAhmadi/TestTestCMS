@@ -1,0 +1,34 @@
+﻿
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>TestTestCMS.Providers.EmailProviders</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Hadi</Authors>
+    <Company>TestTestCMS</Company>
+    <Description>Email provider.</Description>
+    <PackageTags>testtestcms;cms;email;provider;core</PackageTags>
+    <RepositoryUrl>https://github.com/thehadiahmadi/TestTestCMS</RepositoryUrl>
+    <PackageProjectUrl>https://testtestcms.com</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ReadmeFile>README.md</ReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestTestCMS.Providers.EmailProviders.Abstractions\TestTestCMS.Providers.EmailProviders.Abstractions.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\icon.png" Pack="true" PackagePath="icon.png" />
+    <None Include="README.md" Pack="true" PackagePath="README.md" />
+  </ItemGroup>
+</Project>

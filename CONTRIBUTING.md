@@ -1,6 +1,6 @@
-# Contributing to FluentCMS
+# Contributing to TestTestCMS
 
-Thank you for your interest in contributing to FluentCMS! Community contributions make FluentCMS a truly unique and powerful CMS solution. This document provides guidelines to ensure smooth and efficient collaboration.
+Thank you for your interest in contributing to TestTestCMS! Community contributions make TestTestCMS a truly unique and powerful CMS solution. This document provides guidelines to ensure smooth and efficient collaboration.
 
 ## Code of Conduct
 
@@ -8,11 +8,11 @@ All contributors are expected to adhere to our [Code of Conduct](./CODE_OF_CONDU
 
 ## Getting Started
 
-- **Fork the Repository**: Start by forking the [FluentCMS repository](https://github.com/fluentcms/FluentCMS) to your own GitHub account.
+- **Fork the Repository**: Start by forking the [TestTestCMS repository](https://github.com/TestTestCMS/TestTestCMS) to your own GitHub account.
 
 - **Clone the Forked Repository**: 
   ```bash
-  git clone https://github.com/fluentcms/FluentCMS.git
+  git clone https://github.com/TestTestCMS/TestTestCMS.git
 
 - **Create a New Branch**: For each feature or fix, create a new branch:
   ```bash
@@ -27,7 +27,7 @@ Before you want to start making your changes, consider these conventions in your
 
 ## Submitting Changes
 
-Once you've made your changes, push the branch to your fork on GitHub. Navigate to the main FluentCMS repository and create a new Pull Request. Ensure your PR title is descriptive, and include "Fixes #IssueNumber" if your PR closes a specific issue. In the PR description, provide a detailed overview of the changes. 
+Once you've made your changes, push the branch to your fork on GitHub. Navigate to the main TestTestCMS repository and create a new Pull Request. Ensure your PR title is descriptive, and include "Fixes #IssueNumber" if your PR closes a specific issue. In the PR description, provide a detailed overview of the changes. 
 If applicable, include screenshots or GIFs showcasing the updates.
 
 ## Best Practices
@@ -47,6 +47,6 @@ If you discover a problem or have a suggestion, please open a new issue. When de
 If you're unsure about anything — whether it's about the workflow, a piece of code, or even if a feature makes sense — please feel free to seek help in the issue section or directly contact the maintainers.
 
 ## Thank You!
-Your contributions to FluentCMS enrich the community and provide valuable features and fixes for everyone. We appreciate your effort and look forward to collaborating!
+Your contributions to TestTestCMS enrich the community and provide valuable features and fixes for everyone. We appreciate your effort and look forward to collaborating!
 
 

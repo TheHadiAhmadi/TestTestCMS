@@ -1,6 +1,6 @@
 
 ## Page Definition
-FluentCMS enables users to define and customize individual pages within a site using a flexible and intuitive interface. This capability allows for efficient management and personalization of pages, ensuring each page meets specific requirements and preferences.
+TestTestCMS enables users to define and customize individual pages within a site using a flexible and intuitive interface. This capability allows for efficient management and personalization of pages, ensuring each page meets specific requirements and preferences.
 ## Scenarios
 ### Scenario 1: E-commerce Platform with Product Pages
 #### Company Background:
@@ -8,7 +8,7 @@ FluentCMS enables users to define and customize individual pages within a site u
 #### Requirement:
 ShopSmart needs to create distinct product pages for each item, with the ability to customize content, images, and layout to enhance the user experience and drive sales.
 #### Solution
-FluentCMS provides a robust solution for ShopSmart's requirement to create distinct product pages with customized content, images, and layout:
+TestTestCMS provides a robust solution for ShopSmart's requirement to create distinct product pages with customized content, images, and layout:
 
 * Dynamic Page Templates: Use pre-defined product page templates that can be customized to fit different product categories.
 * Rich Media Support: Easily upload and integrate high-quality images and videos to showcase product features.
@@ -22,7 +22,7 @@ FluentCMS provides a robust solution for ShopSmart's requirement to create disti
 #### Requirement:
 DailyNews needs to create dynamic pages for news articles that can include text, images, videos, and interactive elements. Each page should be easily updatable to reflect the latest news and events.
 #### Solution
-FluentCMS offers comprehensive tools for DailyNews to create and manage dynamic content pages for news articles:
+TestTestCMS offers comprehensive tools for DailyNews to create and manage dynamic content pages for news articles:
 
 * Real-Time Editing: Update news articles in real-time with live preview to see changes instantly.
 * Multimedia Integration: Embed videos, images, and interactive elements seamlessly into news articles.
@@ -35,7 +35,7 @@ FluentCMS offers comprehensive tools for DailyNews to create and manage dynamic 
 
 ### Page Creation and Management
 * Create, Update, Delete Pages: Users can create new pages, update existing ones, and delete pages as needed.
-* Page Listing: Display a comprehensive list of all pages with search and paging capability managed within FluentCMS .
+* Page Listing: Display a comprehensive list of all pages with search and paging capability managed within TestTestCMS .
 * Page Templates: Utilize pre-defined templates to quickly create consistent and visually appealing pages.
 * Drag-and-Drop Interface: Use a drag-and-drop interface to easily add, move, and organize content blocks on a page.
 * Plugins: Add pre-defined plugins or custom plugins to specific blocks of a page by simple drag-and-drop. For more details, refer to the [Plugin Definition](./PluginDefinition.md).
@@ -49,7 +49,7 @@ FluentCMS offers comprehensive tools for DailyNews to create and manage dynamic 
 * Rich Text Editor: Add and format text content using a rich text editor.
 * Media Integration: Upload and embed images, videos, and other media files directly into pages.
 * Interactive Elements: Incorporate interactive elements such as forms, buttons, and sliders to enhance user engagement.
-* Custom HTML/CSS: Add custom HTML and CSS to further personalize the look and feel of a page (FluentCMS HtmlString Plugin).
+* Custom HTML/CSS: Add custom HTML and CSS to further personalize the look and feel of a page (TestTestCMS HtmlString Plugin).
 * Preview Mode: View pages in a preview mode to see how they will appear to end users before publishing.
 * Add New/Existing Plugin into specific part of page by simple drag and drop.
 * Copy exsisting Plugin into specific part of page by simple drag and drop.
@@ -67,7 +67,7 @@ Live Preview: Preview pages in real-time as they are being created or edited.
 Dynamic Loading: Apply changes to page content in real-time without needing to refresh or restart the system.
 
 ## Proposal
-This proposal outlines the approach for utilizing FluentCMS to create and manage individual pages on a shared infrastructure. This will enable efficient resource utilization, streamlined management, and personalized page customization for different needs, such as e-commerce product pages or news article pages.
+This proposal outlines the approach for utilizing TestTestCMS to create and manage individual pages on a shared infrastructure. This will enable efficient resource utilization, streamlined management, and personalized page customization for different needs, such as e-commerce product pages or news article pages.
 
 ## Properties
 * PageId: Unique identifier for the page.

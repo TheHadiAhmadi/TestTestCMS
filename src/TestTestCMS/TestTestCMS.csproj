@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <InvariantGlobalization>false</InvariantGlobalization>
+        <Version>0.0.0.0</Version>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Backend\TestTestCMS.Web.Api\TestTestCMS.Web.Api.csproj" />
+        <ProjectReference Include="..\Backend\Repositories\TestTestCMS.Repositories.Caching\TestTestCMS.Repositories.Caching.csproj" />
+        <ProjectReference Include="..\Backend\Repositories\TestTestCMS.Repositories.EFCore.MySql\TestTestCMS.Repositories.EFCore.MySql.csproj" />
+        <ProjectReference Include="..\Backend\Repositories\TestTestCMS.Repositories.EFCore.PostgreSQL\TestTestCMS.Repositories.EFCore.PostgreSQL.csproj" />
+        <ProjectReference Include="..\Backend\Repositories\TestTestCMS.Repositories.EFCore.Sqlite\TestTestCMS.Repositories.EFCore.Sqlite.csproj" />
+        <ProjectReference Include="..\Backend\Repositories\TestTestCMS.Repositories.EFCore.SqlServer\TestTestCMS.Repositories.EFCore.SqlServer.csproj" />
+        <ProjectReference Include="..\Backend\Repositories\TestTestCMS.Repositories.MongoDB\TestTestCMS.Repositories.MongoDB.csproj" />
+        <ProjectReference Include="..\Backend\Repositories\TestTestCMS.Repositories.LiteDb\TestTestCMS.Repositories.LiteDb.csproj" />
+        <ProjectReference Include="..\Frontend\TestTestCMS.Web.UI\TestTestCMS.Web.UI.csproj" />
+        <ProjectReference Include="..\Frontend\Plugins\TestTestCMS.Web.Plugins.TextHTML\TestTestCMS.Web.Plugins.TextHTML.csproj" />
+        <ProjectReference Include="..\Frontend\Plugins\TestTestCMS.Web.Plugins.Block\TestTestCMS.Web.Plugins.Block.csproj" />
+        <ProjectReference Include="..\Frontend\Plugins\TestTestCMS.Web.Plugins.ContactUs\TestTestCMS.Web.Plugins.ContactUs.csproj" />
+        <ProjectReference Include="..\Frontend\Plugins\TestTestCMS.Web.Plugins.RichText\TestTestCMS.Web.Plugins.RichText.csproj" />
+        <ProjectReference Include="..\Frontend\Plugins\TestTestCMS.Web.Plugins.IFrame\TestTestCMS.Web.Plugins.IFrame.csproj" />
+        <ProjectReference Include="..\Frontend\Plugins\TestTestCMS.Web.Plugins.ContentViewer\TestTestCMS.Web.Plugins.ContentViewer.csproj" />
+        <ProjectReference Include="..\Frontend\Plugins\TestTestCMS.Web.Plugins.Admin\TestTestCMS.Web.Plugins.Admin.csproj" />
+        <ProjectReference Include="..\Providers\ApiTokenProviders\TestTestCMS.Providers.ApiTokenProviders\TestTestCMS.Providers.ApiTokenProviders.csproj" />
+        <ProjectReference Include="..\Providers\CacheProviders\TestTestCMS.Providers.CacheProviders\TestTestCMS.Providers.CacheProviders.csproj" />
+        <ProjectReference Include="..\Providers\EmailProviders\TestTestCMS.Providers.EmailProviders\TestTestCMS.Providers.EmailProviders.csproj" />
+        <ProjectReference Include="..\Providers\FileStorageProviders\TestTestCMS.Providers.FileStorageProviders\TestTestCMS.Providers.FileStorageProviders.csproj" />
+        <ProjectReference Include="..\Providers\MessageBusProviders\TestTestCMS.Providers.MessageBusProviders\TestTestCMS.Providers.MessageBusProviders.csproj" />
+        <ProjectReference Include="..\Providers\TemplateRenderingProviders\TestTestCMS.Providers.TemplateRenderingProviders\TestTestCMS.Providers.TemplateRenderingProviders.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="wwwroot\**">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="Templates\**">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </None>
+    </ItemGroup>
+</Project>

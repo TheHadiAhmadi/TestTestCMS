@@ -1,0 +1,33 @@
+
+<Project Sdk="Microsoft.NET.Sdk.Razor">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>TestTestCMS.Web.Plugins.ContactUs</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Hadi</Authors>
+    <Company>TestTestCMS</Company>
+    <Description>ContactUs plugin.</Description>
+    <PackageTags>testtestcms;cms;email;contactus;plugin;core</PackageTags>
+    <RepositoryUrl>https://github.com/thehadiahmadi/TestTestCMS</RepositoryUrl>
+    <PackageProjectUrl>https://testtestcms.com</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <ReadmeFile>README.md</ReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TestTestCMS.Web.Plugins.Base\TestTestCMS.Web.Plugins.Base.csproj" />
+    <ProjectReference Include="..\..\TestTestCMS.Web.ApiClients\TestTestCMS.Web.ApiClients.csproj" />
+    <ProjectReference Include="..\..\TestTestCMS.Web.UI.Components\TestTestCMS.Web.UI.Components.csproj" />
+    <ProjectReference Include="..\..\..\Providers\EmailProviders\TestTestCMS.Providers.EmailProviders\TestTestCMS.Providers.EmailProviders.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\icon.png" Pack="true" PackagePath="icon.png" />
+    <None Include="README.md" Pack="true" PackagePath="README.md" />
+  </ItemGroup>
+</Project>

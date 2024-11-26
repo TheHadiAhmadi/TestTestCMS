@@ -1,0 +1,61 @@
+<Solution>
+  <Folder Name="/Backend/">
+    <Project Path="Backend/TestTestCMS.Entities/TestTestCMS.Entities.csproj" />
+    <Project Path="Backend/TestTestCMS.Identity/TestTestCMS.Identity.csproj" />
+    <Project Path="Backend/TestTestCMS.Services/TestTestCMS.Services.csproj" />
+    <Project Path="Backend/TestTestCMS.Web.Api/TestTestCMS.Web.Api.csproj" />
+  </Folder>
+  <Folder Name="/Backend/Repositories/">
+    <Project Path="Backend/Repositories/TestTestCMS.Repositories.Abstractions/TestTestCMS.Repositories.Abstractions.csproj" />
+    <Project Path="Backend/Repositories/TestTestCMS.Repositories.Caching/TestTestCMS.Repositories.Caching.csproj" />
+    <Project Path="Backend/Repositories/TestTestCMS.Repositories.EFCore.MySql/TestTestCMS.Repositories.EFCore.MySql.csproj" />
+    <Project Path="Backend/Repositories/TestTestCMS.Repositories.EFCore.PostgreSQL/TestTestCMS.Repositories.EFCore.PostgreSQL.csproj" />
+    <Project Path="Backend/Repositories/TestTestCMS.Repositories.EFCore.Sqlite/TestTestCMS.Repositories.EFCore.Sqlite.csproj" />
+    <Project Path="Backend/Repositories/TestTestCMS.Repositories.EFCore.SqlServer/TestTestCMS.Repositories.EFCore.SqlServer.csproj" />
+    <Project Path="Backend/Repositories/TestTestCMS.Repositories.EFCore/TestTestCMS.Repositories.EFCore.csproj" />
+    <Project Path="Backend/Repositories/TestTestCMS.Repositories.LiteDb/TestTestCMS.Repositories.LiteDb.csproj" />
+    <Project Path="Backend/Repositories/TestTestCMS.Repositories.MongoDB/TestTestCMS.Repositories.MongoDB.csproj" />
+  </Folder>
+  <Folder Name="/Frontend/">
+    <Project Path="Frontend/TestTestCMS.Web.ApiClients/TestTestCMS.Web.ApiClients.csproj" />
+    <Project Path="Frontend/TestTestCMS.Web.UI.Components/TestTestCMS.Web.UI.Components.csproj" />
+    <Project Path="Frontend/TestTestCMS.Web.UI/TestTestCMS.Web.UI.csproj" />
+  </Folder>
+  <Folder Name="/Frontend/Plugins/">
+    <Project Path="Frontend/Plugins/TestTestCMS.Web.Plugins.Admin/TestTestCMS.Web.Plugins.Admin.csproj" />
+    <Project Path="Frontend/Plugins/TestTestCMS.Web.Plugins.Base/TestTestCMS.Web.Plugins.Base.csproj" />
+    <Project Path="Frontend/Plugins/TestTestCMS.Web.Plugins.Block/TestTestCMS.Web.Plugins.Block.csproj" />
+    <Project Path="Frontend/Plugins/TestTestCMS.Web.Plugins.ContactUs/TestTestCMS.Web.Plugins.ContactUs.csproj" />
+    <Project Path="Frontend/Plugins/TestTestCMS.Web.Plugins.ContentViewer/TestTestCMS.Web.Plugins.ContentViewer.csproj" />
+    <Project Path="Frontend/Plugins/TestTestCMS.Web.Plugins.IFrame/TestTestCMS.Web.Plugins.IFrame.csproj" />
+    <Project Path="Frontend/Plugins/TestTestCMS.Web.Plugins.RichText/TestTestCMS.Web.Plugins.RichText.csproj" />
+    <Project Path="Frontend/Plugins/TestTestCMS.Web.Plugins.TextHTML/TestTestCMS.Web.Plugins.TextHTML.csproj" />
+  </Folder>
+  <Folder Name="/Providers/" />
+  <Folder Name="/Providers/ApiTokenProviders/">
+    <Project Path="Providers/ApiTokenProviders/TestTestCMS.Providers.ApiTokenProviders.Abstractions/TestTestCMS.Providers.ApiTokenProviders.Abstractions.csproj" />
+    <Project Path="Providers/ApiTokenProviders/TestTestCMS.Providers.ApiTokenProviders/TestTestCMS.Providers.ApiTokenProviders.csproj" />
+  </Folder>
+  <Folder Name="/Providers/CacheProviders/">
+    <Project Path="Providers/CacheProviders/TestTestCMS.Providers.CacheProviders.Abstractions/TestTestCMS.Providers.CacheProviders.Abstractions.csproj" />
+    <Project Path="Providers/CacheProviders/TestTestCMS.Providers.CacheProviders/TestTestCMS.Providers.CacheProviders.csproj" />
+  </Folder>
+  <Folder Name="/Providers/EmailProviders/">
+    <Project Path="Providers/EmailProviders/TestTestCMS.Providers.EmailProviders.Abstractions/TestTestCMS.Providers.EmailProviders.Abstractions.csproj" />
+    <Project Path="Providers/EmailProviders/TestTestCMS.Providers.EmailProviders/TestTestCMS.Providers.EmailProviders.csproj" />
+  </Folder>
+  <Folder Name="/Providers/FileStorageProviders/">
+    <Project Path="Providers/FileStorageProviders/TestTestCMS.Providers.FileStorageProviders.Abstractions/TestTestCMS.Providers.FileStorageProviders.Abstractions.csproj" />
+    <Project Path="Providers/FileStorageProviders/TestTestCMS.Providers.FileStorageProviders/TestTestCMS.Providers.FileStorageProviders.csproj" />
+  </Folder>
+  <Folder Name="/Providers/MessageBusProviders/">
+    <Project Path="Providers/MessageBusProviders/TestTestCMS.Providers.MessageBusProviders.Abstractions/TestTestCMS.Providers.MessageBusProviders.Abstractions.csproj" />
+    <Project Path="Providers/MessageBusProviders/TestTestCMS.Providers.MessageBusProviders/TestTestCMS.Providers.MessageBusProviders.csproj" />
+  </Folder>
+  <Folder Name="/Providers/TemplateRenderingProviders/">
+    <Project Path="Providers/TemplateRenderingProviders/TestTestCMS.Providers.TemplateRenderingProviders.Abstractions/TestTestCMS.Providers.TemplateRenderingProviders.Abstractions.csproj" />
+    <Project Path="Providers/TemplateRenderingProviders/TestTestCMS.Providers.TemplateRenderingProviders/TestTestCMS.Providers.TemplateRenderingProviders.csproj" />
+  </Folder>
+  <Project Path="TestTestCMS/TestTestCMS.csproj" />
+  <Project Path="Shared/Shared.csproj" />
+</Solution>

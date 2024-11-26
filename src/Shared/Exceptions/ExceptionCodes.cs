@@ -1,4 +1,4 @@
-﻿namespace FluentCMS;
+﻿namespace TestTestCMS;
 
 public static class ExceptionCodes
 {

@@ -1,5 +1,5 @@
 ## User Definition
-The Users section of FluentCMS defines the management and structure of user accounts. This includes user profile details, authentication mechanisms, and account settings.
+The Users section of TestTestCMS defines the management and structure of user accounts. This includes user profile details, authentication mechanisms, and account settings.
 
 ## Scenarios
 ### Scenario 1: E-commerce Platform User Management
@@ -26,7 +26,7 @@ The Users section of FluentCMS defines the management and structure of user acco
 * Activity Monitoring: Implement audit and logging mechanisms to track user interactions with the system, such as accessing course materials and submitting assignments.
 
 ## Proposal
-This proposal outlines the approach for managing user accounts within FluentCMS, focusing on user attributes, authentication, roles, and permissions to support various user types and access levels.
+This proposal outlines the approach for managing user accounts within TestTestCMS, focusing on user attributes, authentication, roles, and permissions to support various user types and access levels.
 
 ## Features
 * User Creation and Management: Ability to create, update, and delete user accounts, assign roles, and manage user permissions.
