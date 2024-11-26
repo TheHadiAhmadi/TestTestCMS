@@ -14,14 +14,6 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: '8.x.x'
-        
-    - name: Cache NuGet packages
-      uses: actions/cache@v3
-      with:
-        path: ~/.nuget/packages
-        key: nuget-${{ runner.os }}-${{ hashFiles('**/*.csproj') }}
-        restore-keys: |
-          nuget-${{ runner.os }}-
     # - run: dotnet build <my project>
     - name: Verify commit exists in origin/main
       run: |
