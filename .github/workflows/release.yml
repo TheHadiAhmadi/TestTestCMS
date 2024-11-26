@@ -23,10 +23,7 @@ jobs:
     - name: Set VERSION variable from tag
       run: echo "VERSION=${GITHUB_REF/refs\/tags\/v/}" >> $GITHUB_ENV
     - name: Build
-      run: |
-        for project in $(find ./src -name "*.csproj"); do
-          dotnet build "$project" --configuration Release /p:Version=${VERSION}
-        done
+      run: dotnet build src --configuration Release /p:Version=${VERSION}
     - name: Push
       run: |
         for package in $(find ./src -name "*.nupkg"); do
