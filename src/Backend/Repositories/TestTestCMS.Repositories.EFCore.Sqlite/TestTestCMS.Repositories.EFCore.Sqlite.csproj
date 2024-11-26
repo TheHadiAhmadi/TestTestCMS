@@ -15,7 +15,7 @@
     <PackageProjectUrl>https://testtestcms.com</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
-    <ReadmeFile>README.md</ReadmeFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
 
