@@ -26,8 +26,9 @@ jobs:
     - name: Push
       run: |
         for package in $(find ./src -name "*.nupkg"); do
-          dotnet nuget push "$package" --source https://api.nuget.org/v3/index.json --api-key ${NUGET_TOKEN}
+          dotnet nuget push "$package" --source https://api.nuget.org/v3/index.json --api-key ${NUGET_TOKEN} &
         done
+        wait
       env:
         NUGET_TOKEN: ${{ secrets.NUGET_TOKEN }}
 
